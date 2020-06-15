@@ -1,0 +1,25 @@
+{
+  "name": "my-padplus-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env WECHATY_LOG=verbose nodemon  bot.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "wechaty": "^0.40.6",
+    "wechaty-puppet-cache": "^0.1.7",
+    "wechaty-puppet-padplus": "^0.6.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "md5-typescript": "^1.0.5",
+    "request-promise-native": "^1.0.8",
+    "wechaty-puppet": "^0.26.2"
+  }
+}
